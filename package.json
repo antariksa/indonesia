@@ -1,0 +1,26 @@
+{
+  "name": "@antariksa/indonesia",
+  "description": "",
+  "author": "Andre Antariksa",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antariksa/indonesia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antariksa/indonesia/issues"
+  },
+  "homepage": "https://github.com/antariksa/indonesia#readme",
+  "version": "0.0.1",
+  "main": "dist/core.js",
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "resolveJsonModule": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {},
+  "dependencies": { "leaflet": "^1.9.4" }
+}

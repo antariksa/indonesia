@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    /* Fix : This module is declared with 'export =', and can only be used */
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "antariksa": [
+        "src/antariksa/antariksa"
+      ]
+    },
+  },
+}
